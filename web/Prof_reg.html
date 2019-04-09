@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!doctype html>
+
+<html>
+<head>
+
+ <style>
+  
+            body{
+
+
+             background: lightgray;
+             margin: 0 auto;
+             font-family: arial;
+            }
+
+            h1{
+
+             color: brown;
+             text-align: center;
+            }
+      label{
+
+       color: #777;
+       width: 15%;
+       display: inline-block;
+
+      }
+
+      #container{
+
+
+       padding: 20px;
+       width: 60%;
+       margin: 0 auto;
+       margin-top: 1%;
+       margin-bottom: 1%;
+       background-color: white;
+      }
+
+   .userinput{
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 30px;
+
+   }
+   label{
+
+    color: brown;
+    font-size: 14px;
+   }
+   textarea{
+ color: brown;
+    font-size: 14px;
+
+
+   }
+
+   select{
+
+    color: brown;
+   }
+  
+
+   .sampleBtn{
+      
+       background-color: #f1f1f1;
+       width: 20%;
+       height: 35px;
+       font-size: 16px;
+
+   }
+   .sampleBtn:hover{
+
+          color: white;
+          background-color: brown;
+          cursor: pointer;
+   }
+ </style>
+
+</head>
+
+<body>
+<div id="container">
+ <h1> Professor Registration Form </h1>
+ 
+ <form method="post" action="Prof_Register">
+ 
+  <div class="userinput">
+   <label>Name  </label>
+   <input type="text" name="Name" value="" />
+  </div>
+
+  <div class="userinput">
+   <label> Email </label>   
+   <input type="text" name="email" value="" />
+  </div>
+
+ <div class="userinput">
+   <label>Password </label>
+   <input type="password" name="password" value="" />
+  </div>
+
+  <div class="userinput">
+   <label>Confirm Password </label>
+   <input type="password" name="confpassword" value="" />
+  </div>
+
+  <div class="userinput">
+   <label> Major Area of research </label>
+   <input type="text" name="field" value="" />
+  </div>
+
+
+
+ <div class="userinput">
+   <label>Contact Number </label>
+   <input type="text"  name="contactNumber" value="" />
+  </div>
+  
+  <div class="userinput">
+   <label>Description </label>
+   <textarea name="comments"  rows="7" cols="40"></textarea>
+  </div>
+
+  <div style="text-align:center">
+   <input type="reset" class="sampleBtn"/>
+   <input type="submit" class="sampleBtn"/>   
+  </div>
+  
+ </form>
+ 
+ </div>
+ 
+</body>
+
+</html>
